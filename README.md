@@ -1,7 +1,9 @@
 # Heart Disease Prediction using LightGBM model
 
 Model Pipeline Overview
-Feature Scaling: Standardized the dataset to ensure all features contribute equally to model training.
+
+
+Feature Scaling: Standardised the dataset to ensure all features contribute equally to model training.
 
 Dimensionality Reduction (PCA): Applied Principal Component Analysis to reduce feature dimensionality while preserving variance.
 
@@ -9,4 +11,4 @@ Model Training (LightGBM): Used the LightGBM classifier for its speed and effici
 
 Cross-Validation: Employed stratified k-fold cross-validation to evaluate model performance reliably across subsets.
 
-Early Stopping: Integrated early stopping during training to prevent overfitting and optimize generalization.
+Early Stopping: Integrated early stopping during training to prevent overfitting and optimise generalisation.
